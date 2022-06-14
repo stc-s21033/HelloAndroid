@@ -1,0 +1,5 @@
+number = input('カンマ区切りで点数を入力してください：')
+splitted = number.split(',')
+print(f'入力した文字列は「{number}」です')
+print(f'カンマで分割したリストの中身は{splitted}です')
+#print(f'合計点は{result}点です')
